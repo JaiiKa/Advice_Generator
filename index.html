@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Advice generator app</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Advice generator app</h1>
+      <div id="loading">
+      </div>
+
+      <div class="card" id="card">
+        <p class="title">advice #<span id="adviceId">???</span></p>
+        <p class="advice" id="adviceText">
+          Advice Generator App
+        </p>
+        <img
+          src="./images/pattern-divider-mobile.svg"
+          class="devider_mobile"
+          alt=""
+          role="presentation"
+        />
+        <img
+          src="./images/pattern-divider-desktop.svg"
+          class="devider_desktop"
+          alt=""
+          role="presentation"
+        />
+        <button id="btn" class="btn">
+          <img src="./images/icon-dice.svg" alt="" />
+          <span class="sr-only">next</span>
+        </button>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+
+  </body>
+</html>
